@@ -4,4 +4,6 @@ Also included is a model of a perceptron that can be composited to build an enti
 
 Try training your own MLP!
 
+![](https://github.com/itsShahain/AutoGrad/blob/main/training.mp4)
+
 Modelled around Andrej Karpathy's micrograd.

@@ -47,11 +47,12 @@ class Value:
         return self * other**-1
     
     def __pow__(self, other):
-        assert isinstance(other, (int, float))
-        out = Value(self.data ** other)
+        assert isinstance(other, (int, float)), "Exponent must be int or float"
+        out = Value(self.data ** other, (self, ))
 
         def backward():
-            self.grad += other * self.data ** (other - 1) * out.grad
+            if self.data != 0:
+                self.grad += out.grad * other * (self.data ** (other - 1))
         
         out._backward = backward
         return out
@@ -94,6 +95,3 @@ class Value:
         topo.reverse()
         for node in topo:
             node._backward()
-        
-                
-        

@@ -24,8 +24,8 @@ The code is designed to be simple yet powerful, allowing users to experiment and
 ## **Installation**
 Clone the repository:
 ```bash
-[git clone https://github.com/your_username/micrograd.git](https://github.com/itsShahain/AutoGrad.git)
-cd micrograd
+git clone https://github.com/itsShahain/AutoGrad.git
+cd AutoGrad
 ```
 
 ---

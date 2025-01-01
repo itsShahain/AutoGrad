@@ -55,7 +55,7 @@ print("Output:", output)
 ### 3. **Backward Pass**
 Compute gradients using backpropagation:
 ```python
-# Assume the output is a single Value
+# The output of the output layer is a single Value
 output[0].backward()
 
 # Print gradients of all parameters

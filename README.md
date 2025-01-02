@@ -1,6 +1,8 @@
 # **AutoGrad - A Reverse-mode Autodiff and Neural Network Library**
 
 ## Overview
+Don't be an ML monkey. Learn from first principles how backprop works and how to train complex MLP's from first principles.
+
 This repository implements a **minimalistic autograd engine** and a basic **neural network library** built from scratch in Python. It serves as an educational tool to understand the core mechanics of automatic differentiation and the fundamentals of building and training neural networks.
 
 The code is designed to be simple yet powerful, allowing users to experiment and learn without being overwhelmed by the complexity of larger libraries like TensorFlow or PyTorch.

@@ -137,13 +137,6 @@ for epoch in range(100):
 
 ---
 
-## **Why Use This Library?**
-- **Educational**: Understand how autograd and neural networks work from first principles.
-- **Minimalistic**: Avoid the complexity of large frameworks.
-- **Customizable**: Extend the library with your own features and functionality.
-
----
-
 ## **Contributing**
 Contributions are welcome! If you'd like to improve this library or add new features, please:
 1. Fork the repository.
@@ -153,7 +146,7 @@ Contributions are welcome! If you'd like to improve this library or add new feat
 ---
 
 ## **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT
 
 ---
 
